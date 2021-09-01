@@ -17,4 +17,9 @@ fn main() {
     for element in a.iter() {
         println!("The value is: {}", element);
     }
+
+    for n in (1..4).rev() {
+        println!("{}!", n);
+    }
+    println!("LIFTOFF!!");
 }
